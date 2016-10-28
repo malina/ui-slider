@@ -18,11 +18,11 @@ module.exports = {
 
     //parentApp.import('bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.js');
 
-    if (options.importBootstrapSliderCSS) {
-      parentApp.import('bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css');
-    }
-    if (options.importAddonCss) {
-      parentApp.import('vendor/ui-slider/ui-slider.css');
-    }
+    // if (options.importBootstrapSliderCSS) {
+    //   parentApp.import('bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css');
+    // }
+    // if (options.importAddonCss) {
+    //   parentApp.import('vendor/ui-slider/ui-slider.css');
+    // }
   }
 };
