@@ -16,7 +16,7 @@ module.exports = {
     var parentApp = (typeof app.import !== 'function' && app.app) ? app.app : app;
     var options = extend(defaultOptions, app.options['ui-slider']);
 
-    parentApp.import('bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.js');
+    //parentApp.import('bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.js');
 
     if (options.importBootstrapSliderCSS) {
       parentApp.import('bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.css');
